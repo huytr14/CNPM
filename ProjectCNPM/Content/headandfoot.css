@@ -1,0 +1,103 @@
+﻿body {
+    font-family: Roboto;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.navbar-left {
+    margin-left: 30px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px
+}
+
+    .navbar-right a:hover {
+        color: #A50000;
+    }
+
+.button-dangky:hover {
+    background-color: red;
+}
+
+.navbar-right a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black
+}
+
+.button-dangky {
+    color: white;
+}
+
+.navbar-right button {
+    background-color: #A50000;
+    color: #fff;
+    border: 0px solid #A50000;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.navbar-right > * {
+    padding: 20px;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #A50000;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    font-weight: 400;
+}
+
+.footer p {
+    opacity: 80%
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+    .footer-section h3, .footer-section h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-section p {
+        margin: 5px 0;
+    }
+
+    .footer-section a {
+        color: white;
+        text-decoration: none;
+    }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}

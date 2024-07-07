@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<link href="~/Content/headandfoot.css" rel="stylesheet" />
+<header>
+    <div class="navbar-top">
+        <div class="navbar-left">
+            <a href="@Url.Action("Index", "Home")"><img src="~/Content/img/logo_powerfitness-removebg-preview 1.png"></a>        </div>
+        <div class="navbar-right">
+            <a href="@Url.Action("GioiThieu", "Home")">giới thiệu</a>
+            <a href="@Url.Action("LichTap", "Home")">lịch tập</a>
+            <a href="@Url.Action("DichVu", "Home")">dịch vụ</a>
+            <a href="@Url.Action("HuanLuyenVien", "Home")">huấn luyện viên</a>
+            <a href="@Url.Action("TinTuc", "Home")">tin tức</a>
+
+            <button class="button-dangky">
+                <a href="dangkytap.html" style="color:white">ĐĂNG KÝ TẬP THỬ</a>
+            </button>
+
+            <img src="~/Content/img/Vector.png">
+            
+        </div>
+    </div>
+</header>
+<body>
+    
+        @RenderBody()
+       
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>POWER FITNESS</h3>
+                    <p><img src="~/Content/img/Phone.png"> 0832651314</p>
+                    <p><img src="~/Content/img/MapPinArea.png"> 828 Sư Vạn Hạnh, Phường 13, Quận 10, Thành phố Hồ Chí Minh</p>
+                    <p><img src="~/Content/img/Clock.png"> Thứ Hai - Thứ Sáu: 6:00 đến 23:00 và Thứ Bảy - Chủ Nhật: 8:00 đến 22:00</p>
+                </div>
+                <div class="footer-section">
+                    <p><a href="#">Phương thức thanh toán</a></p>
+                    <p><a href="#">Dịch vụ</a></p>
+                    <p><a href="#">Chính sách giá</a></p>
+                    <p><a href="#">Chính sách bảo mật</a></p>
+                </div>
+                <div class="footer-section">
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Tin tức</a></p>
+                    <p><a href="#">Liên hệ</a></p>
+                    <p><a href="#">Câu lạc bộ</a></p>
+                </div>
+                <div class="footer-section social-media">
+                    <h4>MẠNG XÃ HỘI</h4>
+                    <a href="#"><img src="~/Content/img/FacebookLogo.png" style="width:40px;height:40px"></a>
+                    <a href="#"><img src="~/Content/img/Instagram.png" style="width:35px;height:35px"></a>
+                    <a href="#"><img src="~/Content/img/YoutubeLogo.png" style="width:40px;height:40px"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright 2024 POWERFITNESS. All Right Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
