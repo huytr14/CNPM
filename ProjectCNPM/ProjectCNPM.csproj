@@ -143,16 +143,29 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\DangNhap.css" />
+    <Content Include="Content\DichVu.css" />
     <Content Include="Content\headandfoot.css" />
     <Content Include="Content\img\1 1.png" />
     <Content Include="Content\img\background.jpeg" />
     <Content Include="Content\img\Clock.png" />
     <Content Include="Content\img\FacebookLogo.png" />
+    <Content Include="Content\img\full-shot-woman-helping-man-work-out-Recovered.jpg" />
+    <Content Include="Content\img\image 13.png" />
+    <Content Include="Content\img\image 14.png" />
+    <Content Include="Content\img\image 3.png" />
+    <Content Include="Content\img\image 4.png" />
+    <Content Include="Content\img\image 5.png" />
+    <Content Include="Content\img\image 6.png" />
+    <Content Include="Content\img\image 8.png" />
     <Content Include="Content\img\Instagram.png" />
     <Content Include="Content\img\logo_powerfitness-removebg-preview 1.png" />
     <Content Include="Content\img\MapPinArea.png" />
     <Content Include="Content\img\Phone.png" />
     <Content Include="Content\img\slideshow-gym.png" />
+    <Content Include="Content\img\tap-yoga-o-citigym 1.png" />
+    <Content Include="Content\img\Untitled-1.jpg" />
+    <Content Include="Content\img\Untitled-2 1.png" />
     <Content Include="Content\img\Vector.png" />
     <Content Include="Content\img\YoutubeLogo.png" />
     <Content Include="Content\index.css" />
@@ -194,6 +207,7 @@
     <Content Include="Views\Home\HuanLuyenVien.cshtml" />
     <Content Include="Views\Home\TinTuc.cshtml" />
     <Content Include="Views\Home\DangKyTap.cshtml" />
+    <Content Include="Views\Home\DangNhap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

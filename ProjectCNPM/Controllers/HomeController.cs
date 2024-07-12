@@ -50,5 +50,11 @@ namespace ProjectCNPM.Controllers
 
             return View();
         }
+        public ActionResult DangNhap()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
